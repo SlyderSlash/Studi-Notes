@@ -1,0 +1,8 @@
+.darkNote{
+ color: white;
+ background: black;
+}
+.lightNote{
+    color: black;
+    background: white;
+}
