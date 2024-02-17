@@ -1,8 +1,9 @@
-# React + Vite
+# Live Twitch :
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hello Everyone,
 
-Currently, two official plugins are available:
+Pour ceux qui veulent être présent demain à 13h30 : https://www.twitch.tv/andragogueduweb
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+et si certain d'entre vous veulent faire parti de ce première épisode, hésitait pas à me dire ici ou en mp 🙂 
+
+Le but n'es pas parlé technique pour cette fois, mais plus vos experiences ( agréable comme désagréable ) vis à vis de vos études ou du code. Mais aussi répondre à vos questions sans langue de bois, si vous en avez sur comment ça fonctionne en background 😄
