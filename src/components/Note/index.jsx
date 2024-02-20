@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import Styles from './style.module.css'
-import ThemeContext from "@Contexts/themeContext"
+import ThemeContext from "@Contexts/ThemeContext"
 
 const Note = () => {
     const themeContext = useContext(ThemeContext)

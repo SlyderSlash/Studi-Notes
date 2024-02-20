@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import FormNote from '@Components/FormNote'
 import stylesLight from './style.module.css'
 import stylesDark from './style.module.css'
-import ThemeContext from '@Contexts/themeContext'
+import ThemeContext from '@Contexts/ThemeContext'
 import './App.css'
 // Composant se monte -[]> Composant est monté -> Composant se met à jour [count] -> Composant se démonte -> Composant est démonté
 function App() {
