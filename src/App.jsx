@@ -4,16 +4,17 @@ import viteLogo from '/vite.svg'
 import FormNote from '@Components/FormNote'
 import stylesLight from './style.module.css'
 import stylesDark from './style.module.css'
-import styled from 'styled-component'
 import ThemeContext from '@Contexts/themeContext'
 import './App.css'
 // Composant se monte -[]> Composant est monté -> Composant se met à jour [count] -> Composant se démonte -> Composant est démonté
 function App() {
 
-  const StyledButton = styled.button`
+  /*const StyledButton = styled.button`
     color: "green";
     font-size: 190px;
   `
+  import styled from "styled-components"
+  */
 
   const [count, setCount] = useState(0)
   const [data, setData] = useState(false)
@@ -50,7 +51,6 @@ function App() {
               <img src={reactLogo} className="logo react" alt="React logo" />
             </a>
           </div>
-          <StyledButton onClick={()=>alert('Hello')}>CLICK</StyledButton>
           <h1>Vite + React</h1>
           <FormNote fname={name} theme={setTheme}>
               <h3>Vous êtes les bienvenus</h3>

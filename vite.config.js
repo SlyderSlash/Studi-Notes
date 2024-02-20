@@ -12,5 +12,10 @@ export default defineConfig({
       '@Components': path.resolve(__dirname, './src/components'),
       '@Contexts': path.resolve(__dirname, './src/context')
     }
+  },
+  test: {
+    globals: true,
+    environment: 'happy-dom',
+    setupFiles: './src/test/setup.js'
   }
 })

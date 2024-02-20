@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import Styles from 'style.module.css'
+import Styles from './style.module.css'
 import ThemeContext from "@Contexts/themeContext"
 
 const Note = () => {

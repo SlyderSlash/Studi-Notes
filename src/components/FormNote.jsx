@@ -2,16 +2,17 @@
 import PropTypes from 'prop-types'
 import Note from '@Components/Note'
 
-export default function FormNote ({fname, theme}) { //props.fname
+// eslint-disable-next-line react/prop-types
+export default function FormNote ({fname}) { 
     return (
         <>
+            <h1>Hello</h1>
             <h2>Bonjour {fname}</h2>
-            <Note theme={theme}/>
+            <Note />
         </>
     )
 }
-
-FormNote.PropTypes = {
+FormNote.propTypes = {
     fname: PropTypes.string.isRequired,
     age: PropTypes.number
 }
